@@ -41,6 +41,11 @@ html{
   font-size:62.5%
 }
 
+body{
+    font-size: 1.8rem;
+
+}
+
 .app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -92,5 +97,7 @@ html{
     transform: rotateY(180deg);
 }
 }
+
+
 
 </style>
