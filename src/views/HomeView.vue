@@ -51,7 +51,8 @@ export default {
 .inicio {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  
 
   &__links {
     color: $secundary;
@@ -79,8 +80,8 @@ export default {
       margin-top: 80px;
       background-color: $primary;
       color: $light;
-      padding: 20px;
-      border-radius: 15% 0 15% 0;
+      padding: 2.0rem 2.0rem 2.0rem 3.2rem;
+      border-radius: 18% 0 18% 0;
       margin-bottom: 20px;
     }
   }
@@ -88,6 +89,7 @@ export default {
 
 @media only screen and (min-width: 768px) {
   .inicio {
+    flex-direction: row;
     &__seccion {
       margin-top: 200px;
       &-nombre {

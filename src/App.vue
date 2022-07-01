@@ -42,7 +42,7 @@ html{
 }
 
 body{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 
 }
 
