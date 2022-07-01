@@ -6,7 +6,7 @@
         <li class="desktop__item">
           <router-link to="/" class="desktop__link">
             <svg class="desktop__icon">
-              <use href="../assets/img/icons.svg#home-icon" />
+              <use href="img/icons.svg#home-icon" />
             </svg>
             Inicio
           </router-link>
@@ -14,7 +14,7 @@
         <li class="desktop__item">
           <router-link to="/proyectos" class="desktop__link">
             <svg class="desktop__icon">
-              <use href="../assets/img/icons.svg#portfolio-icon" />
+              <use href="img/icons.svg#portfolio-icon" />
             </svg>
             Proyectos
           </router-link>
@@ -22,7 +22,7 @@
         <li class="desktop__item">
           <router-link to="/contacto" class="desktop__link">
             <svg class="desktop__icon">
-              <use href="../assets/img/icons.svg#contact-icon" />
+              <use href="img/icons.svg#contact-icon" />
             </svg>
             Contacto
           </router-link>
@@ -66,6 +66,7 @@ export default {
   }
 
   &__list {
+    z-index: 1;
     position: fixed;
     bottom: 0;
     background-color: rgb(255, 255, 255);

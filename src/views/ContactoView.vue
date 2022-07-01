@@ -7,11 +7,11 @@
         <p>Gracias por visitar mi sitio, ¡Conectemonos!</p>
         <p>
         <svg class="contacto__icon">
-  <use href="../assets/img/icons.svg#contact-icon" />
+  <use href="img/icons.svg#contact-icon" />
         </svg>
         </p>
         <p>  <svg class="contacto__icon">
-          <use href="../assets/img/icons.svg#github-icon" />
+          <use href="img/icons.svg#github-icon" />
         </svg></p>
        
       </div>

@@ -18,7 +18,7 @@
         </p>
         <router-link class="inicio__links" to="/proyectos">
           <svg class="inicio__icon">
-            <use href="../assets/img/icons.svg#go-icon" /></svg
+            <use href="img/icons.svg#go-icon" /></svg
           >Conoce mis proyectos</router-link
         >
       </div>
