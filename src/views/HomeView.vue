@@ -40,7 +40,9 @@ export default {
 <style lang="scss">
 @import "../assets/scss/variables.scss";
 
-
+.inicio__seccion-nombre p{
+  font-size: 2rem;
+}
 
 .inicio {
   width: 100%;
@@ -70,6 +72,7 @@ export default {
       justify-content: center;
       align-items: center;
       flex-direction: column;
+
     }
     &-descripcion {
       margin: 4rem 1rem;

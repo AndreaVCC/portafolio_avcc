@@ -5,14 +5,15 @@
       </div>
         <div class="contacto__seccion contacto__seccion-contacto">
         <p>Gracias por visitar mi sitio, ¡Conectemonos!</p>
-        <p>
+        <p class="contacto__info">
         <svg class="contacto__icon">
-  <use href="img/icons.svg#contact-icon" />
-        </svg>
-        </p>
-        <p>  <svg class="contacto__icon">
+          <use href="img/icons.svg#contact-icon" />
+        </svg> <a href="mailto:a.carreocoppo2@gmail.com?Subject=Saludos">Envía un mensaje</a>       
+        <p class="contacto__info">  <svg class="contacto__icon">
           <use href="img/icons.svg#github-icon" />
-        </svg></p>
+        </svg>
+        <a href="https://github.com/AndreaVCC" target="_blank">Revisa mi Github!</a>     
+       </p>
        
       </div>
     </div>
@@ -36,10 +37,27 @@ export default {
   justify-content: center;
 }
 
+.contacto__seccion p{
+  margin-bottom: 1.5rem;
+  color: $dark;
+}
+.contacto__seccion p a{
+  color: $primary;
+  text-decoration: none;
+  // border-bottom: 1px solid;
+}
+
+.contacto__info{
+  display: flex;
+  align-items: center;
+
+}
+
 .contacto__icon{
   fill: $primary;
   width:4.0rem;
   height:4.0rem;
+  margin-right: 1rem;;
 }
 
 .contacto {

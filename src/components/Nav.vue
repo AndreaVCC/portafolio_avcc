@@ -37,7 +37,6 @@ export default {
 };
 </script>
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Philosopher:wght@700&display=swap');
 @import "../assets/scss/variables.scss";
 
 

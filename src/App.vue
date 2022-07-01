@@ -46,6 +46,12 @@ body{
 
 }
 
+h1 {
+     font-family: 'Philosopher', sans-serif;
+    font-size: 9vw;;
+
+}
+
 .app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -95,6 +101,21 @@ body{
     width: calc(200% + 1.3px);
     height: 212px;
     transform: rotateY(180deg);
+}
+
+h1 {
+     font-family: 'Philosopher', sans-serif;
+
+}
+}
+
+
+@media only screen and (min-width:1000px){
+
+h1 {
+     font-family: 'Philosopher', sans-serif;
+    font-size: 4vw;;
+
 }
 }
 
