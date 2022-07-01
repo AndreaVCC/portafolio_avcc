@@ -1,10 +1,9 @@
 <template>
-  <div class="proyectos">
-     <div class="inicio">
-      <div class="inicio__seccion inicio__seccion-titulo">
+     <div class="proyectos">
+      <div class="proyectos__seccion proyectos__seccion-titulo">
           <h1>Proyectos</h1>
       </div>
-      <div class="inicio__seccion inicio__seccion-proyectos">
+      <div class="proyectos__seccion proyectos__seccion-proyectos">
        
        <section class="cards">
         <div class="card">
@@ -155,7 +154,6 @@
        
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -168,17 +166,13 @@ export default {
 <style lang="scss">
   @import "../assets/scss/variables.scss";
 
-  .proyectos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
-.inicio {
+.proyectos {
   width: 100%;
   display: flex;
   flex-direction: column;
+    align-items: center;
+  justify-content: center;
 
   &__seccion {
     margin-top: 120px;
@@ -212,6 +206,7 @@ export default {
 
 .cards {
     display: grid;
+    justify-content:center;
     grid-column: 2 / span 6;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 25px;
@@ -273,7 +268,7 @@ export default {
 
 
 @media only screen and (min-width: 500px) {
-  .inicio__seccion-proyectos {
+  .proyectos__seccion-proyectos {
     grid-gap: 20px;
   }
   .card{
@@ -281,7 +276,6 @@ export default {
   }
 
   .cards {
-  grid-column: 2 / span 12;
   display: grid;
   grid-template-columns: repeat(12, minmax(auto, 60px));
   grid-gap: 40px;
@@ -289,8 +283,8 @@ export default {
 }
 
 @media only screen and (min-width: 1024px) {
-  .inicio__seccion-proyectos  {
-    grid-gap: 40px;
+  .proyectos__seccion-proyectos  {
+    grid-gap: 100px;
   }
 
     .cards {

@@ -1,10 +1,9 @@
 <template>
   <div class="contacto">
-    <div class="inicio">
-      <div class="inicio__seccion inicio__seccion-titulo">
+      <div class="contacto__seccion contacto__seccion-titulo">
           <h1>Contacto</h1>
       </div>
-        <div class="inicio__seccion inicio__seccion-contacto">
+        <div class="contacto__seccion contacto__seccion-contacto">
         <p>Gracias por visitar mi sitio, ¡Conectemonos!</p>
         <p>
         <svg class="contacto__icon">
@@ -17,7 +16,7 @@
        
       </div>
     </div>
-  </div>
+
 </template>
 
 <script>
@@ -43,7 +42,7 @@ export default {
   height:4.0rem;
 }
 
-.inicio {
+.contacto {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -59,17 +58,15 @@ export default {
     }
     &-contacto {
       margin-top: 80px;
-      // background-color: $primary;
-      // color: $light;
       padding: 20px;
-      border-radius: 15% 0 15% 0;
       margin-bottom: 20px;
     }
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .inicio {
+  .contacto {
+    flex-direction: row;
     &__seccion {
       margin-top: 200px;
       &-titulo {
@@ -84,7 +81,7 @@ export default {
 
 
 @media only screen and (min-width: 1024px) {
-  .inicio {
+  .contacto {
     margin-top: 120px;
 
     &__seccion {

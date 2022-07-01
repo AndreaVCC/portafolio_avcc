@@ -1,5 +1,4 @@
 <template>
-  <div class="iniciocontenedor">
     <div class="inicio">
       <div class="inicio__seccion inicio__seccion-nombre">
         <h1>Andrea Carreño</h1>
@@ -24,7 +23,7 @@
         >
       </div>
     </div>
-  </div>
+
 
   <!-- <svg class="icon-circle">
           <use href="../assets/img/icons.svg#circle-icon" />
@@ -41,18 +40,12 @@ export default {
 <style lang="scss">
 @import "../assets/scss/variables.scss";
 
-.iniciocontenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .inicio {
   width: 100%;
   display: flex;
   flex-direction: column;
-  
 
   &__links {
     color: $secundary;
@@ -62,14 +55,16 @@ export default {
 
   &__icon {
     fill: $secundary;
-    height: 16px;
-    width: 16px;
-    margin-right: 5px;
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 0.5rem;
   }
 
   &__seccion {
-    margin-top: 120px;
+    
+
     &-nombre {
+      margin-top: 9rem;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -77,12 +72,11 @@ export default {
       flex-direction: column;
     }
     &-descripcion {
-      margin-top: 80px;
+      margin: 4rem 1rem;
       background-color: $primary;
       color: $light;
-      padding: 2.0rem 2.0rem 2.0rem 3.2rem;
-      border-radius: 18% 0 18% 0;
-      margin-bottom: 20px;
+      padding: 2rem 2rem 2rem 3.2rem;
+      border-radius: 5rem 0 5rem 0;
     }
   }
 }
