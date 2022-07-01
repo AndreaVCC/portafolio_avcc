@@ -30,6 +30,14 @@
     "github": "https://github.com/AndreaVCC/scl-2018-12-bc-core-data-lovers",
     "deploy": "https://andreavcc.github.io/scl-2018-12-bc-core-data-lovers/#",
     "tools": ["Javascript", "CSS3", "HTML5"]
+  },
+  {
+    "title": "Game Store",
+    "description": "Carrito de compra de juegos de PlayStation, contiene un buscador.",
+    "img": "img/games.png",
+    "github": "https://github.com/AndreaVCC/CarritoJS",
+    "deploy": "https://andreavcc.github.io/CarritoJS/",
+    "tools": ["Javascript", "CSS3", "HTML5", "Bootstrap, SASS"]
   }
   
 ]
