@@ -77,6 +77,7 @@ export default {
       color: $light;
       padding: 2rem 2rem 2rem 3.2rem;
       border-radius: 5rem 0 5rem 0;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
   }
 }

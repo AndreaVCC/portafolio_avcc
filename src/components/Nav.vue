@@ -44,10 +44,8 @@ export default {
 .desktop {
   height: 64px;
   width: 100%;
-  position: fixed;
-  // background-color: rgb(255, 255, 255);
+  // position: fixed;
   top: 0;
-  // border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   z-index: 1;
     // color: white;
 
@@ -64,8 +62,7 @@ export default {
    font-family: 'Philosopher', sans-serif;
     font-size: 40px;
     color:$light;
-
-
+  z-index: 1;
   }
 
   &__list {

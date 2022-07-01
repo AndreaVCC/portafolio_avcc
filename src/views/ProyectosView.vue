@@ -175,9 +175,10 @@ export default {
   justify-content: center;
 
   &__seccion {
-    margin-top: 120px;
+  
     
     &-titulo {
+      margin-top: 9rem;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -185,9 +186,7 @@ export default {
       flex-direction: column;
     }
     &-proyectos {
-      margin-top: 20px;
-      margin-bottom: 20px;
-
+      margin-bottom: 2.0rem;
       display: grid;
       grid-gap: 10px; 
       grid-template-columns: 10px repeat(6, 1fr) 10px;
@@ -218,9 +217,10 @@ export default {
   border-radius: 18% 0 18% 0;
   display: flex;
   flex-direction: column;
-  background-color: gray;
+  // background-color:rgba(141, 140, 142, 0.394);
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card:hover {

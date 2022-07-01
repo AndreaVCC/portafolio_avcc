@@ -48,8 +48,8 @@ export default {
   flex-wrap: wrap;
 
   &__seccion {
-    margin-top: 120px;
     &-titulo {
+      margin-top: 9rem;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -57,7 +57,6 @@ export default {
       flex-direction: column;
     }
     &-contacto {
-      margin-top: 80px;
       padding: 20px;
       margin-bottom: 20px;
     }
