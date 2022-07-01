@@ -18,11 +18,10 @@
           >
         </div>
         <div class="card__info">
-    
           <a class="card__links" target="_blank" :href="item.deploy">  <svg class="card__icon">
             <use href="img/icons.svg#ver-icon" />
           </svg>Visualizar</a>
-          <a class="card__links" target="_blank" :href="item.github">  <svg class="card__icon">
+          <a v-if="item.github" class="card__links" target="_blank" :href="item.github">  <svg class="card__icon">
             <use href="img/icons.svg#github-icon" />
           </svg>Github</a>
         </div>
@@ -105,6 +104,7 @@ export default {
 }
 
 .card__title {
+  font-weight: bold;
   margin-bottom: 2rem;
 }
 .card__description {

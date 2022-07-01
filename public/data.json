@@ -38,7 +38,24 @@
     "github": "https://github.com/AndreaVCC/CarritoJS",
     "deploy": "https://andreavcc.github.io/CarritoJS/",
     "tools": ["Javascript", "CSS3", "HTML5", "Bootstrap, SASS"]
+  },
+  {
+    "title": "Seminario Geografía",
+    "description": "Página informativa del V Seminario Latinoamericano de Geografía, Género y Sexualidades.",
+    "img": "img/seminario.png",
+    "github": false,
+    "deploy": "https://geoygenerochile.cl/",
+    "tools": ["Javascript", "Vue", "HTML5", "Bootstrap", "CSS3", "SASS", "SEO"]
+  },
+  {
+    "title": "SGD FAU",
+    "description": "Página informativa Subdirección de Género y diversidades  de la Facultad de Arquitectura y Urbanismo Universidad de Chile",
+    "img": "img/sgd.png",
+    "github": false,
+    "deploy": "https://sgd.uchilefau.cl/",
+    "tools": ["WordPress", "SEO"]
   }
+
   
 ]
 
