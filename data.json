@@ -1,0 +1,78 @@
+ [
+  {
+    "title": "Seminario de Geografía",
+    "description": "Página informativa del V Seminario Latinoamericano de Geografía, Género y Sexualidades.",
+    "img": "img/seminario.png",
+    "github": false,
+    "deploy": "https://geoygenerochile.cl/",
+    "tools": ["Javascript", "Vue", "HTML5", "Bootstrap", "CSS3", "SASS", "SEO"],
+    "personal" :false
+  },
+  {
+    "title": "SGD FAU",
+    "description": "Página informativa Subdirección de Género y diversidades  de la Facultad de Arquitectura y Urbanismo Universidad de Chile",
+    "img": "img/sgd.png",
+    "github": false,
+    "deploy": "https://sgd.uchilefau.cl/",
+    "tools": ["WordPress", "SEO"],
+    "personal" :false
+  },
+  {
+    "title": "Hoteles",
+    "description": "Esta es una página de reserva de hoteles donde podrás filtrar por diferentes categorías.",
+    "img": "img/hoteles.png",
+    "github": "https://github.com/AndreaVCC/Sprint-Projects-2-ACAMICA",
+    "deploy": "https://andreavcc.github.io/Sprint-Projects-2-ACAMICA/",
+    "tools": ["React", "Javascript", "CSS3", "HTML5"],
+    "personal" :true
+  },
+  {
+    "title": "Devs United",
+    "description": "Red social donde podrás iniciar sesión con tu cuenta de Google, escribir y eliminar mensajes.",
+    "img": "img/devs.png",
+    "github": "https://github.com/AndreaVCC/Sprint-Projects-4-ACAMICA",
+    "deploy": "https://andreavcc.github.io/Sprint-Projects-4-ACAMICA/#/",
+    "tools":  ["Javascript","React", "Firebase", "HTML5", "CSS3"],
+    "personal" :true
+  },
+  {
+    "title": "Podcast",
+    "description": "Maquetación de un podcast que explora el mundo de la programación y la tecnología.",
+    "img": "img/podcast.png",
+    "github": "https://github.com/AndreaVCC/Sprint-projects-1-ACAMICA",
+    "deploy": "https://andreavcc.github.io/Sprint-projects-1-ACAMICA/",
+    "tools": ["HTML5", "CSS3"],
+    "personal" :true
+  },
+  {
+    "title": "Pokemones",
+    "description": "Se muestra un listado de Pokemones de la región de Kanto el cual puedes filtrar según tipo y ordenar por nombre.",
+    "img": "img/kanto.png",
+    "github": "https://github.com/AndreaVCC/scl-2018-12-bc-core-data-lovers",
+    "deploy": "https://andreavcc.github.io/scl-2018-12-bc-core-data-lovers/#",
+    "tools": ["Javascript", "CSS3", "HTML5"],
+    "personal" :true
+  },
+  {
+    "title": "Game Store",
+    "description": "Carrito de compra de juegos de PlayStation, contiene un buscador.",
+    "img": "img/games.png",
+    "github": "https://github.com/AndreaVCC/CarritoJS",
+    "deploy": "https://andreavcc.github.io/CarritoJS/",
+    "tools": ["Javascript", "CSS3", "HTML5", "Bootstrap, SASS"],
+    "personal" :true
+  },
+  {
+    "title": "Instadogi",
+    "description": "InstaDog es una app web donde podrás ver, añadir a favoritos o subir imágenes de tus perritos.",
+    "img": "img/instadog.jpg",
+    "github": "https://github.com/AndreaVCC/InstaDog",
+    "deploy": "https://andreavcc.github.io/InstaDog/",
+    "tools": ["Javascript", "HTML5", "Bootstrap, The Dog API"],
+    "personal" :true
+  }
+
+
+  
+]
+
